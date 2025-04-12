@@ -1,0 +1,92 @@
+.nav {
+    
+    padding: 15px 20px;
+  }
+  
+  /* Lista de opciones en línea */
+  .nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 60px; /* separación entre opciones */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Enlaces */
+  .nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 6px 12px;
+    transition: 0.3s;
+  }
+  
+  .nav a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+}
+    
+.div4 {
+    background-color: #EEC440;
+    grid-column: span 5 / span 5;
+    color: white;
+    font-family: "Segoe UI";        
+}
+
+.div6 {
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+    grid-row-start: 2;
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .center-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+.div9 {
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+    grid-column-start: 4;
+    grid-row-start: 2;
+}
+
+.div10 {
+    grid-column: span 5 / span 5;
+    grid-column-start: 1;
+    grid-row-start: 5;
+}
+
+.div11 {
+    grid-row: span 3 / span 3;
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+ 
