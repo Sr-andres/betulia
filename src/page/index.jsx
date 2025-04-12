@@ -8,7 +8,7 @@ const Index = () => {
       <div class="div4"><h1>Welcome Betuliaa</h1>
       <nav className="nav">
           <ul>
-            <li><Link to="">Home</Link></li>
+            <li><Link to="https://www.youtube.com/shorts/NSpDbbLXBHs" target="_blank">Home</Link></li>
             <li><Link to="">Servicos</Link></li>
             <li><Link to="">Noticias e Eventos</Link></li>
             <li><Link to="">¿Que se puede hacer en betulia?</Link></li>
